@@ -2,35 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <div class="input-group">
-          <svg class="icon icon--primary">
-            <use xlink:href="images/sprite.svg#snap"></use>
-          </svg>
+    <section class="block container">
+      <header class="block__header">
+        <h2 class="block__heading">Heading</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos,
+          dolore.
+        </p>
+      </header>
+      <div style="width: 30%; padding: 4rem">
+        <div class="card card--secondary">
+          <header class="card__header">Card Title</header>
+          <div class="card__body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
+            assumenda?
+          </div>
         </div>
       </div>
-      <div class="media__body">
-        <h3 class="media__title">Easy Start & Managed Updates</h3>
+    </section>
+    <section class="block block--dark block--skewed-left">
+      <div class="container">
+        <h2 class="block__heading">Heading</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, modi.
-          Ad possimus temporibus dolorem ipsum laborum consequuntur porro ea
-          expedita!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos,
+          dolore.
         </p>
       </div>
-    </div>
+    </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
