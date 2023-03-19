@@ -1,0 +1,23 @@
+{
+  "name": "moeify",
+  "version": "1.0.0",
+  "description": "This is Moe's implementation of the Moshify Webstite.\r It is a good practice website created using HTML & CSS following Mosh's ultimate HTML & CSS Course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaifMoe/Moeify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaifMoe/Moeify/issues"
+  },
+  "homepage": "https://github.com/DaifMoe/Moeify#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
